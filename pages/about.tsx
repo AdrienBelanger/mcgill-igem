@@ -64,14 +64,14 @@ const About: NextPage = () => {
     },
     2023: {
       leadership: [
-        { name: "Albert Nitu", role: "Executive Director" },
         { name: "Dan Voicu", role: "Executive Director" },
-        { name: "Isabelle Guo", role: "Media and Outreach" },
-        { name: "Henry Stephenson", role: "Director of Finance" },
+        { name: "Albert Nitu", role: "Executive Director" },
         { name: "Emily Martin", role: "Human Practices" },
+        { name: "Henry Stephenson", role: "Director of Finance" },
+        { name: "Isabelle Guo", role: "Media and Outreach" },
+        { name: "Megan Farrow", role: "Director of Operations" },
         { name: "Elliot Cole", role: "Wet Lab" },
         { name: "Jonas Lehar", role: "Wet Lab" },
-        { name: "Megan Farrow", role: "Director of Operations" },
         { name: "Ben Segall", role: "Dry Lab" },
         { name: "Jen Tram Su", role: "Dry Lab" }
       ],
