@@ -31,7 +31,7 @@ const Join: NextPage = () => {
       </Marquee>
 
       <div className="bg-black text-white py-16 px-20 grid grid-cols-10 gap-16 font-signika">
-        <div className="col-span-6 px-10">
+        <div className="col-span-6">
           <h2 className="text-left text-4xl my-2">
             Want to join one of the only groups on campus that invests in its
             members?
@@ -114,10 +114,15 @@ const Join: NextPage = () => {
             
         </div>
       </div>
+      <div className="bg-black text-white py-10 px-20 font-signika text-2xl">
+        <button className="bg-mcgill-red hover:bg-mcgill-mahogany text-white px-10 font-bold py-10 rounded">
+          <a href='https://docs.google.com/forms/d/1HK8e0vPiEN6frk7yyPbxhYF7qi4eBEZKRk2hSjHZw4k/viewform?pli=1&pli=1&edit_requested=true' rel='noreferrer' target='_blank'>McGill iGEM 2022-2023 Application Form</a>
+        </button>
+      </div>
 
-      <div data-tf-widget="SSyNYsHq" data-tf-iframe-props="title=McGill iGEM 2022-2023 Application Form" className="px-20 pb-10 h-[100vh] bg-black" data-tf-medium="snippet"></div>
+      {/*<div data-tf-widget="SSyNYsHq" data-tf-iframe-props="title=McGill iGEM 2022-2023 Application Form" className="px-20 pb-10 h-[100vh] bg-black" data-tf-medium="snippet"></div>
 
-      <Script src="//embed.typeform.com/next/embed.js"/>
+                <Script src="//embed.typeform.com/next/embed.js"/>*/}
     </>
   );
 };
