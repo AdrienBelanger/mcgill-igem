@@ -116,7 +116,7 @@ const Join: NextPage = () => {
       </div>
       <div className="bg-black text-white py-10 px-20 font-signika text-2xl">
         <button className="bg-mcgill-red hover:bg-mcgill-mahogany text-white px-10 font-bold py-10 rounded">
-          <a href='https://docs.google.com/forms/d/1HK8e0vPiEN6frk7yyPbxhYF7qi4eBEZKRk2hSjHZw4k/viewform?pli=1&pli=1&edit_requested=true' rel='noreferrer' target='_blank'>McGill iGEM 2022-2023 Application Form</a>
+          <a href='https://docs.google.com/forms/d/1HK8e0vPiEN6frk7yyPbxhYF7qi4eBEZKRk2hSjHZw4k/viewform?pli=1&pli=1&edit_requested=true' rel='noreferrer' target='_blank'>McGill iGEM 2023-2024 Application Form</a>
         </button>
       </div>
 
