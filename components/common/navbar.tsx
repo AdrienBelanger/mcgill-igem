@@ -81,7 +81,7 @@ const Navbar = (props: NavbarProps) => {
                 <div>
                   <h1 className="uppercase lg:text-5xl text-xl lg:py-2 py-1">Initiatives</h1>
                   <ul className="lg:text-xl text-base px-4">
-                    <li className="hover:underline hover:cursor-pointer"><a href="https://www.stemcast.ca/">STEMcast</a></li>
+                    <li className="hover:underline hover:cursor-pointer"><a href="https://open.spotify.com/show/566xfBOfyIhNnNVNsjVHjz?si=8c4f83dca49343cb&nd=1">STEMcast</a></li>
                     <li className="hover:underline hover:cursor-pointer"><Link href="https://in-vitro-conference.webflow.io/">Conference</Link></li>
                     <li className="hover:underline hover:cursor-pointer"><a href="https://www.youtube.com/channel/UCwqaOp6Mkj4Ekhd9QRchd6w">Synbio Collective</a></li>
                     </ul>
