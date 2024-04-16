@@ -59,7 +59,7 @@ const Navbar = (props: NavbarProps) => {
                   <h1 className="uppercase lg:text-5xl text-xl lg:py-2 py-1">About Us</h1>
                   <ul className="lg:text-xl text-base px-4">
                     <li className="hover:underline hover:cursor-pointer"><Link href="/about">Our Team</Link></li>
-                    <li className="hover:underline hover:cursor-pointer"><Link href="/mission">Our Mission</Link></li>
+                    <li className="hover:underline hover:cursor-pointer"><Link href="/mcgill-igem/mission">Our Mission</Link></li>
                     <li className="hover:underline hover:cursor-pointer"><Link href="/join">Join Us</Link></li>
                     </ul>
                 </div>
