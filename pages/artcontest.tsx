@@ -4,7 +4,7 @@ import Image from "next/image";
 
 import Layout from "../components/common/layout";
 
-const ArtContest: NextPage = () => {
+const artcontest: NextPage = () => {
   return (
     <>
       <div className="w-full bg-black text-white pt-20  tracking-tight">
@@ -62,7 +62,7 @@ const ArtContest: NextPage = () => {
   );
 };
 
-export default ArtContest;
+export default artcontest;
 
 // export async function getStaticProps() {}
 
