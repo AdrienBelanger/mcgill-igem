@@ -84,6 +84,7 @@ const Navbar = (props: NavbarProps) => {
                     <li className="hover:underline hover:cursor-pointer"><a href="https://open.spotify.com/show/566xfBOfyIhNnNVNsjVHjz?si=8c4f83dca49343cb&nd=1">STEMcast</a></li>
                     <li className="hover:underline hover:cursor-pointer"><Link href="https://in-vitro-conference.webflow.io/">Conference</Link></li>
                     <li className="hover:underline hover:cursor-pointer"><a href="https://www.youtube.com/channel/UCwqaOp6Mkj4Ekhd9QRchd6w">Synbio Collective</a></li>
+                    <li className="hover:underline hover:cursor-pointer"><Link href="/artcontest">Synbiosis Art Competition</Link></li>
                     </ul>
                 </div>
                 <div>
