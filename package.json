@@ -10,7 +10,7 @@
     "lint": "next lint",
     "export": "next build && next export",
     "exp": "next export",
-    "predeploy": "npm run build --legacy-peer-deps && npm run export",
+    "predeploy": "npm run build && npm run export",
     "deploy": "gh-pages -d out"
   },
   "dependencies": {
