@@ -65,7 +65,7 @@ const Footer = () => {
       {/* <hr /> */}
       <div ref={titleRef} className="flex items-center flex-row py-10 px-5">
         <div>
-          <p>&#169;McGill IGEM 2023</p>
+          <p>&#169;McGill IGEM 2024</p>
         </div>
         <p className="ml-auto pr-2">Follow Us:</p>
         <div className="hover:scale-125 loadLeft">
