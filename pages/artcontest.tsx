@@ -72,7 +72,6 @@ const artcontest: NextPage = () => {
   Need inspiration?
   <br />
   ...
-  //Rest of your inspiration text here
 </div>
 
 <div className="w-1/2 mt-14 font-mono font-regular text-l">
@@ -85,14 +84,14 @@ const artcontest: NextPage = () => {
   How to submit?
   <br />
   ...
-  // Rest of your submission instructions text here
+  
 </div>
 
 <div className="w-1/2 mt-14 font-mono font-regular text-l">
   How many people can win?
   <br />
   ...
-  // Rest of your winning criteria text here
+
 </div>
 
 <div className="w-1/2 mt-14 font-mono font-regular text-l">
