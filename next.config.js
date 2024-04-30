@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: '/mcgill-igem',
+  basePath: '/mcgill-igem-staging',
   reactStrictMode: true,
   assetPrefix: "./",
   images: {

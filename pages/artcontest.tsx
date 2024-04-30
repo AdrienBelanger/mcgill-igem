@@ -35,7 +35,7 @@ const artcontest: NextPage = () => {
         </div>
 
         <div className="py-10 pl-40">
-          <Image src="/wide-image.jpg" alt="Wide Image" width={1200} height={800} />
+          <Image src="img/wide-image.jpg" alt="Wide Image" width={1200} height={800} />
         </div>
 
         <div className="py-10 pl-40">
