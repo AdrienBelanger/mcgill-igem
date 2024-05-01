@@ -20,42 +20,42 @@ const artcontest: NextPage = () => {
           </div>
         </div>
         <div className="py-10 pl-40">
-          <div className="w-1/2 font-signika font-regular text-5xl">
+          <div className="w-1/2 font-signika font-regular text-6xl">
             Run the chance of having your art featured at an art gallery
           </div>
-          <div className="w-1/2 mt-14 font-mono font-regular text-xl">
+          <div className="w-1/2 mt-14 font-mono font-regular text-2xl">
             Brought to you by McGill iGEM, this competition puts your art to the test and enables you to explore it through the lens of synthetic biology.
           </div>
-          <div className="w-1/2 mt-14 font-mono font-regular text-xl">
-            <a href="https://www.projetcasa.org/" className="text-blue-500 hover:underline">At the Projet Casa Art Gallery</a>
-          </div>
-          <div className="w-1/2 mt-14 font-mono font-regular text-xl">
-            <span>Exhibition on July 18-21 2024</span>
+          <div className="w-1/2 mt-14 font-mono font-regular text-2l">
+            Where: <a href="https://www.projetcasa.org/" className="text-blue-500 hover:underline">At the Projet Casa Art Gallery</a> <br /> When: Submission by June 28, Final decision (tentative) : July 5, Exhibition on July 18. 
           </div>
         </div>
 
         <div className="py-10 pl-40">
-          <Image src="public/img/Synbiosis Art competition - Projet Casa display.svg" alt="Image of the Art Gallery" width={1200} height={800} />
+          <img src="img/Synbiosis Art competition - Projet Casa display.svg" alt="Image of the Art Gallery" width={1200} height={800} />
         </div>
-
+  
         <div className="py-10 pl-40">
           <div className="w-1/2 font-signika font-regular text-5xl">
             Description
           </div>
+
           <div className="w-1/2 mt-14 font-mono font-regular text-l">
-            <b>Who is this competition for?</b>
-            <br />
+
+
+
+          <div>
+            <b className="w-1/2 mt-14 font-mono font-regular text-xl">Who is this competition for?</b>
+            <br/>
             For anyone who has a kick for biology and biotech in general. But it applies just as well to anyone who is up to participate and take part of an exciting project that merges art with synthetic biology.
           </div>
-          <div className="w-1/2 mt-14 font-mono font-regular text-l">
-          <div className="w-1/2 mt-14 font-mono font-regular text-l">
   What is synthetic biology (or synbio)?
   <br />
   Synthetic biology is a new field of research with a central focus on how DNA can be engineered as a tool to create new systems that have a purpose, whether it be from DNA origami biosensors to smart bacteria that can reach tumor sites and release therapeutics. The limit is your imagination...
 </div>
 
 <div className="w-1/2 mt-14 font-mono font-regular text-l">
-  To get a better grasp of what synbio is, feel free to check out <a href="this explanotory video" className="text-blue-500 hover:underline">https://www.youtube.com/watch?v=zggU1KCgc7A</a> by Ginkgo Bioworks, a world leader in the field.
+  To get a better grasp of what synbio is, feel free to check out <a href="https://www.youtube.com/watch?v=zggU1KCgc7A" className="text-blue-500 hover:underline">this explanotory video</a> by Ginkgo Bioworks, a world leader in the field.
 </div>
 
 <div className="w-1/2 mt-14 font-mono font-regular text-l">
@@ -109,8 +109,7 @@ const artcontest: NextPage = () => {
 </div>
 
           </div>
-        </div>
-      </div>
+          </div>
     </>
   );
 };
