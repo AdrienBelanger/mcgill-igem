@@ -30,12 +30,12 @@ const artcontest: NextPage = () => {
             <a href="https://www.projetcasa.org/" className="text-blue-500 hover:underline">At the Projet Casa Art Gallery</a>
           </div>
           <div className="w-1/2 mt-14 font-mono font-regular text-xl">
-            <span className="text-blue-500">Exhibition on July 18-21 2024</span>
+            <span>Exhibition on July 18-21 2024</span>
           </div>
         </div>
 
         <div className="py-10 pl-40">
-          <Image src="img/wide-image.jpg" alt="Wide Image" width={1200} height={800} />
+          <Image src="public/img/Synbiosis Art competition - Projet Casa display.svg" alt="Image of the Art Gallery" width={1200} height={800} />
         </div>
 
         <div className="py-10 pl-40">
@@ -43,7 +43,7 @@ const artcontest: NextPage = () => {
             Description
           </div>
           <div className="w-1/2 mt-14 font-mono font-regular text-l">
-            For who is this competition for?
+            <b>Who is this competition for?</b>
             <br />
             For anyone who has a kick for biology and biotech in general. But it applies just as well to anyone who is up to participate and take part of an exciting project that merges art with synthetic biology.
           </div>
@@ -55,9 +55,7 @@ const artcontest: NextPage = () => {
 </div>
 
 <div className="w-1/2 mt-14 font-mono font-regular text-l">
-  To get a better grasp of what synbio is, feel free to check out this explanatory video by Ginkgo Bioworks, a world leader in the field.
-  <br />
-  <a href="https://www.youtube.com/watch?v=zggU1KCgc7A" className="text-blue-500 hover:underline">https://www.youtube.com/watch?v=zggU1KCgc7A</a>
+  To get a better grasp of what synbio is, feel free to check out <a href="this explanotory video" className="text-blue-500 hover:underline">https://www.youtube.com/watch?v=zggU1KCgc7A</a> by Ginkgo Bioworks, a world leader in the field.
 </div>
 
 <div className="w-1/2 mt-14 font-mono font-regular text-l">
