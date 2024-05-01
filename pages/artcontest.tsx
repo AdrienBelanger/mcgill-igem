@@ -75,7 +75,7 @@ const artcontest: NextPage = () => {
             <div>
               <b className="w-1/2 mt-14 font-mono font-regular text-xl">Need inspiration?</b>
               <br/>
-              Check out <a href="/files/IGEM McGill Art Contest - Inspiration Material.pdf" className="text-blue-500 hover:underline"> this awesome PDF</a> of reference material we put together.
+              Check out <a href="files/IGEM McGill Art Contest - Inspiration Material.pdf" className="text-blue-500 hover:underline"> this awesome PDF</a> of reference material we put together.
             </div>
         
             <div className="p-4 mt-14 bg-white text-black">
