@@ -1,9 +1,6 @@
 import Link from "next/link";
 import type { NextPage } from "next";
 import { SocialIcon } from "react-social-icons";
-import { useInView } from "react-intersection-observer";
-import Image from "next/image";
-
 import Layout from "../components/common/layout";
 
 const artcontest: NextPage = () => {
@@ -95,7 +92,7 @@ const artcontest: NextPage = () => {
             <div>
               <b className="w-1/2 mt-14 font-mono font-regular text-xl">How to Submit</b>
               <br/>
-              When you’re done and feel ready to make a submission, <a href="example.com" className="text-blue-500 hover:underline"> please fill out this form</a>. Send out a file with your work and our judges will do their best to evaluate you work. If the photo is too difficult to assess, a resubmission may be required.
+              When you are done and feel ready to make a submission, <a href="https://forms.gle/MmGxkBzZyZVjsZGSA" className="text-blue-500 hover:underline"> please fill out this form</a>. Send out a file with your work and our judges will do their best to evaluate you work. If the photo is too difficult to assess, a resubmission may be required.
             </div>
             <br /><br />
             <div>
@@ -142,7 +139,7 @@ const artcontest: NextPage = () => {
                   </div>
                   <div className="hover:scale-125 loadLeft mr-2">
                     {<SocialIcon
-                      url="https://www.instagram.com/projet_casa/"
+                      url="https://twitter.com/igemmcgill"
                       fgColor="white"
                       bgColor="transparent"
                     />}
@@ -150,9 +147,9 @@ const artcontest: NextPage = () => {
 
                 </div>
 
-                <img src="/img/Mcgill IGEM logo.svg" alt="McGill iGEM Logo" className="h-20 mr-3" />
+                <img src="img/Mcgill IGEM logo.svg" alt="McGill iGEM Logo" className="h-20 mr-3" />
                 <div className="text-white text-4xl">X</div>
-                <img src="/img/Projet Casa Logo.svg" alt="Project Casa Logo" className="h-20 ml-6" />
+                <img src="img/Projet Casa Logo.svg" alt="Project Casa Logo" className="h-20 ml-6" />
 
 
 
@@ -166,7 +163,7 @@ const artcontest: NextPage = () => {
                   </div>
                   <div className="hover:scale-125 loadLeft ml-3">
                     {<SocialIcon
-                      url="https://www.instagram.com/projet_casa/"
+                      url="https://www.facebook.com/ProjetCasa.art/"
                       fgColor="white"
                       bgColor="transparent"
                     />}
