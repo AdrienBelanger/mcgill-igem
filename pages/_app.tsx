@@ -25,9 +25,15 @@ const MyApp = ({
           setPageLoading(false);
         };
 
+        
         const path = window.location.pathname;
         if (path !== '/') {
           router.push(path);
+        }
+
+        
+        if ('scrollRestoration' in window.history) {
+          window.history.scrollRestoration = 'manual';
         }
 
         router.events.on('routeChangeStart', handleStart);
