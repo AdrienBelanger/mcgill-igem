@@ -25,13 +25,13 @@ const MyApp = ({
           setPageLoading(false);
         };
 
-        
+        // Add this code to handle direct URL access
         const path = window.location.pathname;
         if (path !== '/') {
-          router.push(path);
+          router.replace(path);
         }
 
-        
+        // Disable automatic scroll restoration
         if ('scrollRestoration' in window.history) {
           window.history.scrollRestoration = 'manual';
         }
@@ -46,7 +46,7 @@ const MyApp = ({
         router.events.off('routeChangeComplete', handleComplete);
         router.events.off('routeChangeError', handleComplete);
       };
-    }, [router]);
+    }, []); // Empty array ensures this runs only once when the component mounts
 
 return (
   <Layout pageLoading={pageLoading}>
