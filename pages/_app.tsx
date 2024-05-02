@@ -1,21 +1,3 @@
-// import '../styles/globals.css'
-// import type { AppProps } from 'next/app'
-// import { useEffect } from 'react';
-
-// function MyApp({ Component, pageProps }: AppProps) {
-//   useEffect(() => {
-//     if (typeof window !== 'undefined') {
-//             const loader = document.getElementById('globalLoader');
-//         if (loader)
-//             loader.style.display = 'none';
-//     }
-// }, []);
-//   return <Component {...pageProps} />
-// }
-
-// export default MyApp
-
-
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 import { useEffect } from 'react';
@@ -42,6 +24,12 @@ const MyApp = ({
         const handleComplete = () => {
           setPageLoading(false);
         };
+
+        const path = window.location.pathname;
+        if (path !== '/') {
+          router.push(path);
+        }
+
         router.events.on('routeChangeStart', handleStart);
         router.events.on('routeChangeComplete', handleComplete);
         router.events.on('routeChangeError', handleComplete);
