@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="flex justify-end items-start mr mb-2">
         <div className="px-8 py-2">
           <h2 className="py-2 font-bold hover:underline hover:cursor-pointer">
-            <a href="example.com">News</a>
+            <a href="https://mcgilligem.substack.com/">News</a>
             
           </h2>
           <h2 className="font-bold hover:underline hover:cursor-pointer"><Link href="/contact">Contact Us</Link></h2>
