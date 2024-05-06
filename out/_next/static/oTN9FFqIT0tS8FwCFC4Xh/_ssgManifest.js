@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002Fcollaborators","\u002Fjoin","\u002Fmission","\u002F","\u002Fcurrent","\u002Fpartner","\u002Fnotfound","\u002Fabout","\u002Fsponsors","\u002F2022","\u002Fartcontest"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()

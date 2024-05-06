@@ -25,7 +25,7 @@ const Footer = () => {
             <li className="hover:underline hover:cursor-pointer"><a href="https://www.stemcast.ca/">STEMcast</a></li>
             <li className="hover:underline hover:cursor-pointer"><Link href="https://in-vitro-conference.webflow.io/">Conference</Link></li>
             <li className="hover:underline hover:cursor-pointer"><Link href="https://www.youtube.com/channel/UCwqaOp6Mkj4Ekhd9QRchd6w">Synbio Collective</Link></li>
-            {/*<li className="hover:underline hover:cursor-pointer"><Link href="/artcontest">Synbiosis Art Competition</Link></li>*/}
+            <li className="hover:underline hover:cursor-pointer"><Link href="/artcontest">Synbiosis Art Competition</Link></li>
           </ul>
         </div>
         <div className="px-8 py-2">
