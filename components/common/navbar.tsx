@@ -67,7 +67,7 @@ const Navbar = (props: NavbarProps) => {
                   <h1 className="uppercase lg:text-5xl text-xl lg:py-2 py-1">Partners</h1>
                   <ul className="lg:text-xl text-base px-4">
                     <li className="hover:underline hover:cursor-pointer"><Link href="/sponsors">Sponsors</Link></li>
-                    <li className="hover:underline hover:cursor-pointer"><Link href="/collaborators">Collaborators</Link></li>
+                    {/*<li className="hover:underline hover:cursor-pointer"><Link href="/collaborators">Collaborators</Link></li>*/}
                     <li className="hover:underline hover:cursor-pointer"><Link href="/partner">Partner With Us</Link></li>
                     </ul>
                 </div>
@@ -75,6 +75,7 @@ const Navbar = (props: NavbarProps) => {
                   <h1 className="uppercase lg:text-5xl text-xl lg:py-2 py-1">Projects</h1>
                   <ul className="lg:text-xl text-base px-4">
                     <li className="hover:underline hover:cursor-pointer"><Link href="/current">Current</Link></li>
+                    <li className="hover:underline hover:cursor-pointer"><Link href="/2023">2023</Link></li>
                     <li className="hover:underline hover:cursor-pointer"><Link href="/2022">2022</Link></li>
                     </ul>
                 </div>
@@ -85,10 +86,11 @@ const Navbar = (props: NavbarProps) => {
                     <li className="hover:underline hover:cursor-pointer"><Link href="https://in-vitro-conference.webflow.io/">Conference</Link></li>
                     <li className="hover:underline hover:cursor-pointer"><a href="https://www.youtube.com/channel/UCwqaOp6Mkj4Ekhd9QRchd6w">Synbio Collective</a></li>
                     <li className="hover:underline hover:cursor-pointer"><Link href="/artcontest">Synbiosis Art Competition</Link></li>
+                    <li className="hover:underline hover:cursor-pointer"><Link href="https://mcgilligem.substack.com/">Blog</Link></li>
                     </ul>
                 </div>
                 <div>
-                  <h1 className="uppercase lg:text-5xl text-xl lg:py-2 py-1 hover:underline hover:cursor-pointer"><a href="https://mcgilligem.substack.com/">NEWS</a></h1>
+                  <h1 className="uppercase lg:text-5xl text-xl lg:py-2 py-1 hover:underline hover:cursor-pointer"><a href="example.com">NEWS</a></h1>
                 </div>
                 <div>
                   <h1 className="uppercase lg:text-5xl text-xl lg:py-2 py-1 hover:underline hover:cursor-pointer"><Link href="/contact">Contact Us</Link></h1>

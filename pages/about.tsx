@@ -124,7 +124,7 @@ const About: NextPage = () => {
             </span>
             / ABOUT US / OUR TEAM /
             <select
-              className="hover:cursor-pointer py-1 px-2 rounded-md text-white outline:none focus:outline-none bg-transparent"
+              className="hover:cursor-pointer py-1 px-2 rounded-md text-white outline:none focus:outline-none bg-black"
               value={selectedYear}
               onChange={(e) => handleYearChange(Number(e.target.value))}
             >
