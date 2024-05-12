@@ -20,13 +20,13 @@ const artcontest: NextPage = () => {
         </div>
         <div className="py-10 pl-40">
           <div className="w-1/2 font-signika font-regular text-6xl">
-            Run the chance of having your art featured at an art gallery
+            Have the chance for your art come to life at an art gallery.
           </div>
           <div className="w-1/2 mt-14 font-mono font-regular text-2xl">
-            Brought to you by McGill iGEM, this competition puts your art to the test and enables you to explore it through the lens of synthetic biology.
+          Brought to you by McGill iGEM, express your creativity through the lens of synthetic biology.
           </div>
           <div className="w-1/2 mt-14 font-mono font-regular text-xl">
-          The exhibition will take place at the <a href="https://www.projetcasa.org/" className="text-blue-500 hover:underline">Projet Casa Art Gallery</a> on the 18th of July 2024. 
+          The exhibition will take place at the <a href="https://www.projetcasa.org/" className="text-blue-500 hover:underline">Projet Casa Art Gallery</a> in mid-July 2024. 
           </div>
         </div>
 
@@ -42,13 +42,17 @@ const artcontest: NextPage = () => {
           <div className="w-1/2 font-signika font-regular text-5xl">
             Description
           </div>
+          <div className="w-1/2 mt-14 font-mono font-regular text-xl">
+            The Synbiosis Art Contest invites you to explore the fusion of art and science through your creative lens. This unique competition seeks to blend the imaginative realms of synthetic biology and artistic expression, showcasing the potential of biotechnology as an inspiration for art. Set against the vibrant backdrop of the Projet Casa Art Gallery, the exhibition is scheduled for mid-July 2024, offering artists a platform to present their work to an appreciative audience. Whether you're a seasoned artist or a curious novice, this contest is an opportunity to challenge your creativity and inspire the next generation of scientists. Your submission should be a reflection of your originality and of your interpretation of synthetic biology’s expansive possibilities—from complex bioengineered systems to novel molecular structures. Selected works will be presented at the exhibit and artists will earn 50% of the proceeds from any sales made from their work. Dive into the intersection of life and art, and let your vision come to life at an inspiring exhibition!
+            </div>
+            
 
         <div className="w-1/2 mt-14 font-mono font-regular text-l">
             {/* WHO IS THIS COMPETITION FOR */}
             <div>
               <b className="w-1/2 mt-14 font-mono font-regular text-xl">Who is this competition for?</b>
               <br/>
-              For anyone who has a kick for biology and biotech in general. But it applies just as well to anyone who is up to participate and take part of an exciting project that merges art with synthetic biology.
+              All creative minds.
             </div>
             <br /><br />
 
@@ -56,9 +60,7 @@ const artcontest: NextPage = () => {
             <div>
             <b className="w-1/2 mt-14 font-mono font-regular text-xl">What is synthetic biology (or synbio)?</b>
             <br />
-            Synthetic biology is a new field of research with a central focus on how DNA can be engineered as a tool to create new systems that have a purpose, whether it be from DNA origami biosensors to smart bacteria that can reach tumor sites and release therapeutics. The limit is your imagination...
-            <br /><br />
-            To get a better grasp of what synbio is, check out <a href="https://www.youtube.com/watch?v=zggU1KCgc7A" className="text-blue-500 hover:underline">this great explanatory video</a> by Ginkgo Bioworks, a world leader in the field.
+            Synthetic biology is a field of research focusing on how biological systems can be engineered for novel uses, from DNA origami biosensors to “smart” bacteria that can detect and treat tumours. Your imagination is the limit!
             </div>
             <br /><br />
 
@@ -66,35 +68,24 @@ const artcontest: NextPage = () => {
             <div>
               <b className="w-1/2 mt-14 font-mono font-regular text-xl">The Theme</b>
               <br /><br />
-              <em><b>Synbio, Synbiosis - With engineering and the art of biology, at the micro-scale</b></ em>
+              <em><b className="text-l">Synbiosis: Interwoven Inspiration</b></ em>
               <br /><br />
-              The idea is to present synbio as a way to harness nature’s amazing potential as a framework for finding new solutions to help benefit society as a whole. This involves a synergy between creativity, knowledge of current tools, and goodwill, to make it work. Just as science and art are both powered by creativity and curiosity, we hope that you will be inspired by science, and in turn, inspire future scientists.
+              Just as science and art are both powered by creativity and curiosity, we hope that your art will be inspired by science, and in turn, inspire future scientists.
             </div>
-            <br /><br />
             
-            <div>
-              <b className="w-1/2 mt-14 font-mono font-regular text-xl">Need inspiration?</b>
-              <br/>
-              Check out <a href="files/IGEM McGill Art Contest - Inspiration Material.pdf" className="text-blue-500 hover:underline"> this awesome PDF</a> of reference material we put together.
-            </div>
+            
         
             <div className="p-4 mt-14 bg-white text-black">
-              <b className="w-1/2 mt-14 font-mono font-regular text-2xl">Rules</b>
+              <b className="w-1/2 mt-14 font-mono font-regular text-2xl">Rules & Terms</b>
               <ul className="list-disc ml-4">
-                <li>Anything you can paint on a canvas or digitally will be accepted.</li>
-                <li>You can also explore other mediums (such as using clay).</li>
-                <li>Make sure you follow the theme, and the message we try to convey with it.</li>
-                <li>The work you submit must be your own - we reserve the right to disqualify your artwork if it has copied, or plagiarized any other work without explicit permission.</li>
+                <li>Please submit your original artwork in any medium by June 30th.</li>
+                <li>Outstanding entries will be showcased at Projet Casa, and artists will receive 50% of the proceeds from the sale of their work.</li>
+                <li>All submissions must be the entrant's own creation. We reserve the right to disqualify any artwork found to be plagiarized or created without explicit permission.</li>
+          
               </ul>
             </div>
             <br /><br />
 
-            <div>
-              <b className="w-1/2 mt-14 font-mono font-regular text-xl">How to Submit</b>
-              <br/>
-              When you are done and feel ready to make a submission, <a href="https://forms.gle/MmGxkBzZyZVjsZGSA" className="text-blue-500 hover:underline"> please fill out this form</a>. Send out a file with your work and our judges will do their best to evaluate you work. If the photo is too difficult to assess, a resubmission may be required.
-            </div>
-            <br /><br />
             <div>
               <b className="w-1/2 mt-14 font-mono font-regular text-xl">How many winners will there be?</b>
               <br/>
@@ -106,20 +97,41 @@ const artcontest: NextPage = () => {
           <b className="w-1/2 mt-14 font-mono font-regular text-xl">Key Dates</b> 
           <b className="w-1/2 mt-14 font-mono font-regular text-2l">
             <br />
-            Submission deadline: June 28 2024
+            Submission deadline: June 30, 2024
             <br />
-            Tentative date of final decisions: July 5 2024
+            Tentative date of final decisions: early July 2024
             <br />
-            Exhibition: July 18-21 2024
+            Exhibition: mid-July 2024
             </b>
           </div>
+          <br /><br />
+
+          <div>
+              <b className="w-1/2 mt-14 font-mono font-regular text-xl">How to Submit</b>
+              <br/>
+              <a href="https://forms.gle/MmGxkBzZyZVjsZGSA" className="text-blue-500 hover:underline"> Please fill out this form. </a>
+            </div>
+
+
 
           <div className="w-1/2 mt-14 font-mono font-regular text-l">
           <b className="w-1/2 mt-14 font-mono font-regular text-xl">Questions?</b> 
             <br />
-            If you have any questions or want some pointers on how you can pursue your work, do not hesitate to <span className="text-blue-500 hover:underline hover:cursor-pointer"><Link href="/contact">Contact us</Link></span> or to send us an email at igem@mcgill.ca directly.
+            Do not hesitate to <span className="text-blue-500 hover:underline hover:cursor-pointer"><Link href="/contact">contact us</Link></span> at igem@mcgilleus.ca or on @igem.mcgill on Instagram.
           </div>
+
+          <br /><br />
+            
+            <div>
+              <b className="w-1/2 mt-14 font-mono font-regular text-xl">Want to learn more about synthetic biology?</b>
+              <br/>
+              Start by checking out <a href="files/IGEM McGill Art Contest - Inspiration Material.pdf" className="text-blue-500 hover:underline"> this awesome PDF</a> of reference material we put together. Then, explore our <a href="https://in-vitro-conference.webflow.io/" className="text-blue-500 hover:underline"> other educational initiatives</a>.
+            </div>
+
+
           </div>
+
+
       
       
       
@@ -156,7 +168,7 @@ const artcontest: NextPage = () => {
                 <div className="flex flex-col">
                   <div className="hover:scale-125 loadLeft ml-3">
                     {<SocialIcon
-                      url="https://www.instagram.com/igem.mcgill/"
+                      url="https://www.instagram.com/projet_casa/"
                       fgColor="white"
                       bgColor="transparent"
                     />}
