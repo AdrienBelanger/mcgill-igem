@@ -43,7 +43,7 @@ const artcontest: NextPage = () => {
             Description
           </div>
           <div className="w-1/2 mt-14 font-mono font-regular text-xl">
-            The Synbiosis Art Contest invites you to explore the fusion of art and science through your creative lens. This unique competition seeks to blend the imaginative realms of synthetic biology and artistic expression, showcasing the potential of biotechnology as an inspiration for art. Set against the vibrant backdrop of the Projet Casa Art Gallery, the exhibition is scheduled for mid-July 2024, offering artists a platform to present their work to an appreciative audience. Whether you're a seasoned artist or a curious novice, this contest is an opportunity to challenge your creativity and inspire the next generation of scientists. Your submission should be a reflection of your originality and of your interpretation of synthetic biology’s expansive possibilities—from complex bioengineered systems to novel molecular structures. Selected works will be presented at the exhibit and artists will earn 50% of the proceeds from any sales made from their work. Dive into the intersection of life and art, and let your vision come to life at an inspiring exhibition!
+            The Synbiosis Art Contest invites you to explore the fusion of art and science through your creative lens. This unique competition seeks to blend the imaginative realms of synthetic biology and artistic expression, showcasing the potential of biotechnology as an inspiration for art. Set against the vibrant backdrop of the Projet Casa Art Gallery, the exhibition is scheduled for mid-July 2024, offering artists a platform to present their work to an appreciative audience. Whether you`re a seasoned artist or a curious novice, this contest is an opportunity to challenge your creativity and inspire the next generation of scientists. Your submission should be a reflection of your originality and of your interpretation of synthetic biology’s expansive possibilities—from complex bioengineered systems to novel molecular structures. Selected works will be presented at the exhibit and artists will earn 50% of the proceeds from any sales made from their work. Dive into the intersection of life and art, and let your vision come to life at an inspiring exhibition!
             </div>
             
 
@@ -80,7 +80,7 @@ const artcontest: NextPage = () => {
               <ul className="list-disc ml-4">
                 <li>Please submit your original artwork in any medium by June 30th.</li>
                 <li>Outstanding entries will be showcased at Projet Casa, and artists will receive 50% of the proceeds from the sale of their work.</li>
-                <li>All submissions must be the entrant's own creation. We reserve the right to disqualify any artwork found to be plagiarized or created without explicit permission.</li>
+                <li>All submissions must be the entrant`s own creation. We reserve the right to disqualify any artwork found to be plagiarized or created without explicit permission.</li>
           
               </ul>
             </div>
