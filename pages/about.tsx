@@ -155,7 +155,7 @@ const About: NextPage = () => {
               </div>
               <div className="grid grid-cols-5 gap-2">
                 {teamMembersByYear[selectedYear][section].map((teamMember) => (
-                  <Person key={teamMember.name} name={teamMember.name} img={`/team/${selectedYear}/${teamMember.name}.jpeg`} role={teamMember.role} />
+                  <Person alt={teamMember.name} key={teamMember.name} name={teamMember.name} img={`/team/${selectedYear}/${teamMember.name}.jpeg`} role={teamMember.role} />
                 ))}
               </div>
             </div>

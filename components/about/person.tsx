@@ -3,6 +3,7 @@ import Image from "next/image";
 interface PersonProps {
   name: string;
   img: string;
+  alt: string; // Add alt prop
   role?: string; // Add role prop
 }
 
@@ -13,6 +14,7 @@ const Person = (props: PersonProps) => {
         <Image
           layout="responsive"
           src={props.img}
+          alt={props.alt} // Add alt attribute
           width={258}
           height={350}
           className="h-full w-full object-cover"

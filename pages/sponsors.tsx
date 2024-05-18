@@ -34,6 +34,7 @@ const Standard: NextPage = () => {
         <div className="h-full w-1/2 py-5">
           <a href="https://www.mcgill.ca/" className="">
             <Image
+              alt="image of mcgill logo"
               width={819}
               height={193}
               layout="responsive"
@@ -47,6 +48,7 @@ const Standard: NextPage = () => {
           <div className="h-full w-full mx-5">
             <a href="https://ssmu.ca/" className="">
               <Image
+                alt="SSMU logo"
                 width={306}
                 height={200}
                 layout="responsive"
@@ -57,6 +59,7 @@ const Standard: NextPage = () => {
           <div className="h-full w-full mx-5">
             <a href="https://www.pfizer.ca/" className="">
               <Image
+                alt="pfizer logo"
                 width={603}
                 height={316}
                 layout="responsive"
@@ -69,6 +72,7 @@ const Standard: NextPage = () => {
         <div className="h-full w-1/2 py-5">
           <a href="https://gairdner.org/" className="">
             <Image
+              alt=""
               width={819}
               height={193}
               layout="responsive"
@@ -83,6 +87,7 @@ const Standard: NextPage = () => {
           <div className="h-full w-full mx-5">
             <a href="https://www.snapgene.com/" className="">
               <Image
+                alt=""
                 width={400}
                 height={100}
                 layout="responsive"
@@ -93,6 +98,7 @@ const Standard: NextPage = () => {
           <div className="h-full w-full mx-5">
             <a href="https://www.minipcr.com/" className="">
               <Image
+                alt=""
                 width={514}
                 height={229}
                 layout="responsive"
@@ -103,6 +109,7 @@ const Standard: NextPage = () => {
           <div className="h-full w-full mx-5">
             <a href="https://www.neb.ca/" className="">
               <Image
+                alt=""
                 width={461}
                 height={179}
                 layout="responsive"
@@ -118,6 +125,7 @@ const Standard: NextPage = () => {
           <div className="h-full w-full mx-5">
             <a href="https://www.benchling.com/" className="">
               <Image
+                alt=""
                 width={495}
                 height={105}
                 layout="responsive"
@@ -128,6 +136,7 @@ const Standard: NextPage = () => {
           <div className="h-full w-full mx-5">
             <a href="https://www.twistbioscience.com/" className="">
               <Image
+                alt=""
                 width={586}
                 height={199}
                 layout="responsive"
@@ -138,6 +147,7 @@ const Standard: NextPage = () => {
           <div className="h-full w-full mx-5">
             <a href="https://zbiotics.com/" className="">
               <Image
+                alt=""
                 width={1200}
                 height={158}
                 layout="responsive"
@@ -154,6 +164,7 @@ const Standard: NextPage = () => {
           <div className="h-full w-full mx-5">
             <a href="https://latch.bio/" className="">
               <Image
+                alt=""
                 width={385}
                 height={122}
                 layout="responsive"
@@ -164,6 +175,7 @@ const Standard: NextPage = () => {
           <div className="h-full w-full mx-5">
             <a href="https://www.idtdna.com/pages" className="">
               <Image
+                alt=""
                 width={355}
                 height={124}
                 layout="responsive"
@@ -174,6 +186,7 @@ const Standard: NextPage = () => {
           <div className="h-full w-full mx-5">
             <a href="https://mrm.research.mcgill.ca/" className="">
               <Image
+                alt=""
                 width={466}
                 height={164}
                 layout="responsive"
@@ -184,6 +197,7 @@ const Standard: NextPage = () => {
           <div className="h-full w-full mx-5">
             <a href="https://www.mybeckman.ca/" className="">
               <Image
+                alt=""
                 width={314}
                 height={150}
                 layout="responsive"
