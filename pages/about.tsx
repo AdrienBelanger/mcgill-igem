@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Person from "../components/about/person";
 import type { NextPage } from "next";
 import { useState } from "react";
@@ -108,63 +108,61 @@ const About: NextPage = () => {
   
   const sections = Object.keys(teamMembersByYear[selectedYear]);
 
-  return (
-    <>
-      <div className="bg-black text-white pt-20 px-20">
-        <div className="mb-15">
-          <div className="py-10 capitalize font-signika font-light tracking-tight text-3xl">
-            ABOUT US
-          </div>
-          <div className="capitalize font-signika font-medium tracking-tight text-8xl -mt-5">
-            OUR TEAM
-          </div>
-          <div className="py-10 capitalize font-mono font-bold tracking-tight text-l">
-            <span className="text-mcgill-red">
-              <Link href="/">HOME </Link>
-            </span>
-            / ABOUT US / OUR TEAM /
-            <select
-              className="hover:cursor-pointer py-1 px-2 rounded-md text-white outline:none focus:outline-none bg-black"
-              value={selectedYear}
-              onChange={(e) => handleYearChange(Number(e.target.value))}
-            >
-              {Object.keys(teamMembersByYear).map((year) => (
-                <option key={year} value={year}>
-                  {year}
-                </option>
-              ))}
-            </select>
-          </div>
+  return <>
+    <div className="bg-black text-white pt-20 px-20">
+      <div className="mb-15">
+        <div className="py-10 capitalize font-signika font-light tracking-tight text-3xl">
+          ABOUT US
         </div>
-        
+        <div className="capitalize font-signika font-medium tracking-tight text-8xl -mt-5">
+          OUR TEAM
+        </div>
+        <div className="py-10 capitalize font-mono font-bold tracking-tight text-l">
+          <span className="text-mcgill-red">
+            <Link href="/">HOME </Link>
+          </span>
+          / ABOUT US / OUR TEAM /
+          <select
+            className="hover:cursor-pointer py-1 px-2 rounded-md text-white outline:none focus:outline-none bg-black"
+            value={selectedYear}
+            onChange={(e) => handleYearChange(Number(e.target.value))}
+          >
+            {Object.keys(teamMembersByYear).map((year) => (
+              <option key={year} value={year}>
+                {year}
+              </option>
+            ))}
+          </select>
+        </div>
       </div>
-
-      <div className="pl-20 bg-black">
-        <div className="bg-black text-white py-16 pr-10">
-          <div className="text-right w-full font-mono px-2 pb-4 text-3xl border-b-2 border-mcgill-red">{selectedYear}</div>
-          {sections.map((section) => {
-            const formattedSection = section
-            .replace(/([A-Z])/g, ' $1') // Insert space before capital letters
-            .trim() // Remove leading space
-            .toLowerCase(); // Convert to lowercase
       
-            return (
-            <div key={section}>
-              <div className="font-mono font-bold text-left uppercase text-4xl py-4">
-                {formattedSection}
-              </div>
-              <div className="grid grid-cols-5 gap-2">
-                {teamMembersByYear[selectedYear][section].map((teamMember) => (
-                  <Person key={teamMember.name} name={teamMember.name} img={`/team/${selectedYear}/${teamMember.name}.jpeg`} role={teamMember.role} />
-                ))}
-              </div>
+    </div>
+
+    <div className="pl-20 bg-black">
+      <div className="bg-black text-white py-16 pr-10">
+        <div className="text-right w-full font-mono px-2 pb-4 text-3xl border-b-2 border-mcgill-red">{selectedYear}</div>
+        {sections.map((section) => {
+          const formattedSection = section
+          .replace(/([A-Z])/g, ' $1') // Insert space before capital letters
+          .trim() // Remove leading space
+          .toLowerCase(); // Convert to lowercase
+    
+          return (
+          <div key={section}>
+            <div className="font-mono font-bold text-left uppercase text-4xl py-4">
+              {formattedSection}
             </div>
-            );
-                })}
-        </div>
+            <div className="grid grid-cols-5 gap-2">
+              {teamMembersByYear[selectedYear][section].map((teamMember) => (
+                <Person key={teamMember.name} name={teamMember.name} img={`/team/${selectedYear}/${teamMember.name}.jpeg`} role={teamMember.role} />
+              ))}
+            </div>
+          </div>
+          );
+              })}
       </div>
-      </>
-  );
+    </div>
+    </>;
 };
 
 export default About;

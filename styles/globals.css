@@ -2,8 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+    box-sizing: border-box;
+}
 
-
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
 
 .bothalign { 
     position: absolute;
@@ -31,40 +39,36 @@
 
 .gradienttop {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 69.79%);
-background-blend-mode: multiply;
-transform: rotate(-180deg);
+    background-blend-mode: multiply;
+    transform: rotate(-180deg);
 }
 
 .gradienttop2 {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
-background-blend-mode: multiply;
-transform: rotate(-180deg);
+    background-blend-mode: multiply;
+    transform: rotate(-180deg);
 }
 
 .hometext {
     font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 13vw;
-line-height: 70%;
-/* or 70% */
-
-letter-spacing: -0.1em;
-text-transform: uppercase;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13vw;
+    line-height: 70%;
+    /* or 70% */
+    letter-spacing: -0.1em;
+    text-transform: uppercase;
 }
 
 .learnmore {
     font-family: 'Signika';
-font-style: normal;
-font-weight: 500;
-font-size: 2vw;
-line-height: 25px;
-/* identical to box height */
-
-letter-spacing: -0.015em;
-text-transform: uppercase;
-
-
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2vw;
+    line-height: 25px;
+    /* identical to box height */
+    letter-spacing: -0.015em;
+    text-transform: uppercase;
 }
 
 .clearfix {
@@ -75,7 +79,6 @@ text-transform: uppercase;
 .left_marquee {
     animation: scroll-left 30s cubic-bezier(.1,.35,.9,.65) infinite;
 }
-
 
 @keyframes scroll-left {
     0% {
@@ -90,20 +93,16 @@ text-transform: uppercase;
     animation: scroll-right 30s cubic-bezier(.1,.35,.9,.65) infinite;
 }
 
-
 @keyframes scroll-right {
     0% {
- 
         transform: translateX(-70%);
     }
     100% {
-
         transform: translateX(70%);
     }
-    
 }
 
-.image_effect img{
+.image_effect img {
     transition: all .5s ease-in-out;
 }
 
@@ -115,11 +114,9 @@ text-transform: uppercase;
 
 @keyframes moveInLeft {
     0% {
- 
         transform: translateX(-150%);
     }
     100% {
-
         transform: translateX(0%);
     }
 }
@@ -128,15 +125,25 @@ text-transform: uppercase;
     animation: moveInLeft 0.5s ease-in-out, 0s;
 }
 
-
-
 select {
     background-color: black;
     color: white;
     border: none;
-  }
-  
-  select:focus {
+}
+
+select:focus {
     outline: none;
+}
+
+.logo {
+    @media (max-width: 768px) {
+      content: url('../public/img/mcgill-igem-logo-without-text.png');
+    }
+  }
+
+  @media (max-width: 768px) {
+    .navbar {
+      background-color: rgba(0, 0, 0, 0.8); /* Semi-opaque black background */
+    }
   }
   
