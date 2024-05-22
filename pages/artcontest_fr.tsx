@@ -84,9 +84,11 @@ const artcontest_fr: NextPage = () => {
             <div className="p-4 mt-14 bg-white text-black">
               <b className="w-1/2 mt-14 font-mono font-regular text-2xl">Règles & Conditions</b>
               <ul className="list-disc ml-4">
-                <li>Veuillez soumettre votre œuvre originale sur le médium de votre choix avant le 30 juin.</li>
+                <li>Veuillez soumettre votre œuvre originale sur le medium de votre choix avant le 30 juin.</li>
                 <li>Les œuvres exceptionnelles seront exposées à Projet Casa, et les artistes recevront 50 % des revenus générés par leurs œuvres, qui seront mis aux enchères pendant l&apos;exposition.</li>
+                <li>Si l&apos;oeuvre est un tableau, ses dimensions ne peuvent excéder 40 x 40 po</li>
                 <li>Toutes les soumissions doivent être des créations originales de l&apos;auteur. Nous nous réservons le droit de disqualifier toute soumission qui relève de plagiat.</li>
+                <li>Les oeuvres seront selectionnées par un Jury désigné par McGill iGEM</li>
           
               </ul>
             </div>

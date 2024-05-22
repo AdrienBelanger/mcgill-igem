@@ -86,7 +86,9 @@ const artcontest: NextPage = () => {
               <ul className="list-disc ml-4">
                 <li>Please submit your original artwork in any medium by June 30th.</li>
                 <li>Outstanding entries will be showcased at Projet Casa, and artists will receive 50% of the proceeds from the sale of their work.</li>
+                <li>If the artwork is a painting, the canvas size cannot exceed 40” x 40”</li>
                 <li>All submissions must be the entrant`s own creation. We reserve the right to disqualify any artwork found to be plagiarized or created without explicit permission.</li>
+                <li>Submissions will be selected by a Jury designated by McGill iGEM</li>
           
               </ul>
             </div>
