@@ -6,31 +6,9 @@ const nextConfig = {
   assetPrefix: "./",
   images: {
     loader: "akamai",
-    path: "/",
+    path: "",
   },
-  webpack: (config) => {
-    config.module.rules.push({
-      test: /\.css$/,
-      use: ['style-loader', 'css-loader'],
-    });
-    config.module.rules.push({
-      test: /\.scss$/,
-      use: [
-        'style-loader',
-        {
-          loader: 'css-loader',
-          options: {
-            modules: {
-              auto: (resourcePath) => resourcePath.endsWith('.module.scss'),
-              localIdentName: '[local]___[hash:base64:5]',
-            },
-          },
-        },
-        'sass-loader',
-      ],
-    });
-    return config;
-  },
+  loaders: ["style-loader", "css-loader", "less-loader"],
 };
 
 module.exports = nextConfig;

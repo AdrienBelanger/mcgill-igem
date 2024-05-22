@@ -6,7 +6,6 @@ import { useState } from 'react';
 import Loading from '../components/common/loading';
 import PageLoader from 'next/dist/client/page-loader';
 import Layout from "../components/common/layout";
-import styles from '../../styles/Navbar.module.scss';
 
 const MyApp = ({
   Component, 
