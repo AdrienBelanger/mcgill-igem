@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { NextPage } from "next";
-
+import styles from '../../styles/Navbar.module.scss';
 import Layout from "../components/common/layout";
 
 

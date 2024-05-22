@@ -12,7 +12,6 @@ $black: #222;
 
 //Basic wrapper align
 .burgerAlign {
-  //   height: 100%;
   width: 100%;
   padding-right: 1.5rem;
   padding-top: 1.5rem;
@@ -90,27 +89,21 @@ $black: #222;
 }
 
 .bg {
-  // visibility: hidden;
   width: 1px;
   height: 1px;
   position: fixed;
-
   top: 11px;
   right: 16px;
   background-color: black;
   border-radius: 100%;
-
   transition: all;
-
   animation: zoom $duration ease-in-out 1 reverse;
 }
 
 .bgoopen {
-  // visibility: visible;
   width: 50px;
   height: 50px;
   position: fixed;
-
   top: 11px;
   right: 16px;
   background-color: black;
@@ -132,20 +125,6 @@ $black: #222;
   }
 }
 
-// @keyframes come-in-right {
-//   0% {
-//     color: #ffffff00;
-//     transform: translateX(-200%);
-//   }
-//   85% {
-//     transform: translateX(20%);
-//   }
-//   100% {
-//     color: #ffffff;
-
-//     transform: translateX(00%);
-//   }
-// }
 @keyframes come-in-right {
   0% {
     color: #ffffff00;
@@ -153,12 +132,10 @@ $black: #222;
   }
   100% {
     color: #ffffff;
-
     transform: translateX(00%);
   }
 }
 
 .navanim {
-
   animation: come-in-right 0.4s linear 0.5s 1 normal backwards;
 }
