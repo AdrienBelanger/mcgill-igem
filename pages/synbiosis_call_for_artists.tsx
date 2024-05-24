@@ -3,7 +3,7 @@ import type { NextPage } from "next";
 import { SocialIcon } from "react-social-icons";
 import Layout from "../components/common/layout";
 
-const synbiosis_calltoartists: NextPage = () => {
+const synbiosis_call_for_artists: NextPage = () => {
   return (
     <>
       <div className="w-full bg-black text-white pt-20  tracking-tight">
@@ -12,15 +12,15 @@ const synbiosis_calltoartists: NextPage = () => {
             INITIATIVES
           </div>
           <div className="capitalize font-signika font-medium text-8xl">
-            SYNBIOSIS <br/>CALL TO ARTISTS
+            SYNBIOSIS <br/>CALL FOR ARTISTS
           </div>
           <div className="w-1/2 font-signika font-regular text-xl text-blue-500 hover:underline">
           
-        <Link href="/synbiosis_calltoartists_fr">Voir la page en français</Link>
+        <Link href="/synbiosis_call_for_artists_fr">Voir la page en français</Link>
         <br /><br />
           </div>
           <div className="py-10 capitalize font-mono font-bold  text-l">
-            <span className="text-mcgill-red">HOME </span>/ INITIATIVES / SYNBIOSIS CALL TO ARTISTS
+            <span className="text-mcgill-red">HOME </span>/ INITIATIVES / SYNBIOSIS CALL FOR ARTISTS
           </div>
         </div>
         <div className="py-10 pl-40">
@@ -49,14 +49,14 @@ const synbiosis_calltoartists: NextPage = () => {
             Description
           </div>
           <div className="w-1/2 mt-14 font-mono font-regular text-xl">
-            The Synbiosis Call To Artists invites you to explore the fusion of art and science through your creative lens. This unique event seeks to blend the imaginative realms of synthetic biology and artistic expression, showcasing the potential of biotechnology as an inspiration for art. Set against the vibrant backdrop of the Projet Casa Art Gallery, the exhibition is scheduled for mid-July 2024, offering artists a platform to present their work to an appreciative audience. Whether you`re a seasoned artist or a curious novice, this event is an opportunity to challenge your creativity and inspire the next generation of scientists. Your submission should be a reflection of your originality and of your interpretation of synthetic biology’s expansive possibilities—from complex bioengineered systems to novel molecular structures. Selected works will be presented at the exhibit and artists will earn 50% of the proceeds from any sales made from their work. Dive into the intersection of life and art, and let your vision come to life at an inspiring exhibition!
+            The Synbiosis Call For Artists invites you to explore the fusion of art and science through your creative lens. This unique event seeks to blend the imaginative realms of synthetic biology and artistic expression, showcasing the potential of biotechnology as an inspiration for art. Set against the vibrant backdrop of the Projet Casa Art Gallery, the exhibition is scheduled for mid-July 2024, offering artists a platform to present their work to an appreciative audience. Whether you`re a seasoned artist or a curious novice, this event is an opportunity to challenge your creativity and inspire the next generation of scientists. Your submission should be a reflection of your originality and of your interpretation of synthetic biology’s expansive possibilities—from complex bioengineered systems to novel molecular structures. Selected works will be presented at the exhibit and artists will earn 50% of the proceeds from any sales made from their work. Dive into the intersection of life and art, and let your vision come to life at an inspiring exhibition!
             </div>
             
 
         <div className="w-1/2 mt-14 font-mono font-regular text-l">
             {/* WHO IS THIS COMPETITION FOR */}
             <div>
-              <b className="w-1/2 mt-14 font-mono font-regular text-xl">Who is this Call To Artists for?</b>
+              <b className="w-1/2 mt-14 font-mono font-regular text-xl">Who is this Call For Artists for?</b>
               <br/>
               All creative minds.
             </div>
@@ -127,7 +127,7 @@ const synbiosis_calltoartists: NextPage = () => {
             <div>
               <b className="w-1/2 mt-14 font-mono font-regular text-xl">Want to learn more about synthetic biology?</b>
               <br/>
-              Start by checking out <a href="files/IGEM McGill Call To Artists - Inspiration Material.pdf" className="text-blue-500 hover:underline"> this awesome PDF</a> of reference material we put together. Then, explore our <a href="https://igemontheverge.wixsite.com/home" className="text-blue-500 hover:underline"> other educational initiatives</a>.
+              Start by checking out <a href="files/IGEM McGill Call For Artists - Inspiration Material.pdf" className="text-blue-500 hover:underline"> this awesome PDF</a> of reference material we put together. Then, explore our <a href="https://igemontheverge.wixsite.com/home" className="text-blue-500 hover:underline"> other educational initiatives</a>.
             </div>
 
 
@@ -203,7 +203,7 @@ const synbiosis_calltoartists: NextPage = () => {
   );
 };
 
-export default synbiosis_calltoartists;
+export default synbiosis_call_for_artists;
 
 // export async function getStaticProps() {}
 

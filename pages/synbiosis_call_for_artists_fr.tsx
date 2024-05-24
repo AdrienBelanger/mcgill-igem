@@ -3,7 +3,7 @@ import type { NextPage } from "next";
 import { SocialIcon } from "react-social-icons";
 import Layout from "../components/common/layout";
 
-const artcontest_fr: NextPage = () => {
+const synbiosis_call_for_artists_fr: NextPage = () => {
   return (
     <>
       <div className="w-full bg-black text-white pt-20  tracking-tight">
@@ -16,7 +16,7 @@ const artcontest_fr: NextPage = () => {
           </div>
           <div className="w-1/2 font-signika font-regular text-xl text-blue-500 hover:underline">
           
-        <Link href="/synbiosis_calltoartists">See the page in English</Link>
+        <Link href="/synbiosis_call_for_artists">See the page in English</Link>
         <br /><br />
           </div>
           <div className="py-10 capitalize font-mono font-bold  text-l">
@@ -127,7 +127,7 @@ const artcontest_fr: NextPage = () => {
             <div>
               <b className="w-1/2 mt-14 font-mono font-regular text-xl">Vous voulez en savoir plus sur la biologie synthétique?</b>
               <br/>
-              Commencez par consulter <a href="files/IGEM McGill Call To Artists - Inspiration Material (FR).pdf" className="text-blue-500 hover:underline"> ce PDF</a> que nous avons préparé pour vous servir de guide dans votre exploration de sujets en biologie synthétique. Ensuite, explorez <a href="https://igemontheverge.wixsite.com/home" className="text-blue-500 hover:underline">nos autres initiatives éducatives</a>.
+              Commencez par consulter <a href="files/IGEM McGill Call For Artists - Inspiration Material (FR).pdf" className="text-blue-500 hover:underline"> ce PDF</a> que nous avons préparé pour vous servir de guide dans votre exploration de sujets en biologie synthétique. Ensuite, explorez <a href="https://igemontheverge.wixsite.com/home" className="text-blue-500 hover:underline">nos autres initiatives éducatives</a>.
             </div>
 
 
@@ -203,7 +203,7 @@ const artcontest_fr: NextPage = () => {
   );
 };
 
-export default artcontest_fr;
+export default synbiosis_call_for_artists_fr;
 
 // export async function getStaticProps() {}
 
