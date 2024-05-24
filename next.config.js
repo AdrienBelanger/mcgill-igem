@@ -7,6 +7,7 @@ const nextConfig = {
   images: {
     loader: "akamai",
     path: "",
+    unoptimized: true,
   },
   loaders: ["style-loader", "css-loader", "less-loader"],
 };
