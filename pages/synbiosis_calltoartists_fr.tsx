@@ -12,15 +12,15 @@ const artcontest_fr: NextPage = () => {
             INITIATIVES
           </div>
           <div className="capitalize font-signika font-medium text-8xl">
-            CONCOURS D&apos;ART <br/> SYNBIOSIS
+            APPEL AUX ARTISTES <br/> SYNBIOSIS
           </div>
           <div className="w-1/2 font-signika font-regular text-xl text-blue-500 hover:underline">
           
-        <Link href="/artcontest">See the page in English</Link>
+        <Link href="/synbiosis_calltoartists">See the page in English</Link>
         <br /><br />
           </div>
           <div className="py-10 capitalize font-mono font-bold  text-l">
-            <span className="text-mcgill-red">MENU </span>/ INITIATIVES / CONCOURS D&apos;ART SYNBIOSIS
+            <span className="text-mcgill-red">MENU </span>/ INITIATIVES / APPEL AUX ARTISTES SYNBIOSIS
           </div>
         </div>
         <div className="py-10 pl-40">
@@ -49,14 +49,14 @@ const artcontest_fr: NextPage = () => {
             Description
           </div>
           <div className="w-1/2 mt-14 font-mono font-regular text-xl">
-          Le concours d&apos;art Synbiosis vous invite à explorer la fusion de l&apos;art et de la science à travers votre esprit créatif. Ce concours unique cherche à faire un mariage entre la biologie synthétique et l&apos;expression artistique, pour montrer le potentiel de la biotechnologie comme source d&apos;inspiration pour l&apos;art. Se déroulant dans le cadre vibrant de Projet Casa, l&apos;exposition est prévue pour la mi-juillet 2024, offrant aux artistes une plateforme pour présenter leur travail à un public intéressé. Que vous soyez un artiste chevronné ou un curieux, ce concours est une opportunité de défier votre créativité et d&apos;inspirer la prochaine génération de scientifiques. Votre soumission doit refléter votre originalité et votre interprétation du large éventail de possibilités avec la biologie synthétique – en allant des systèmes bioingénierés complexes aux structures moléculaires inédites. Les œuvres sélectionnées seront présentées à l&apos;exposition et les artistes recevront 50 % des revenus des ventes de leurs œuvres. Plongez dans l&apos;intersection de la vie et de l&apos;art, et laissez votre vision prendre vie lors d&apos;une exposition inspirante!
+          L&apos;Appel Aux Artistes Synbiosis vous invite à explorer la fusion de l&apos;art et de la science à travers votre esprit créatif. Cet appel unique cherche à faire un mariage entre la biologie synthétique et l&apos;expression artistique, pour montrer le potentiel de la biotechnologie comme source d&apos;inspiration pour l&apos;art. Se déroulant dans le cadre vibrant de Projet Casa, l&apos;exposition est prévue pour la mi-juillet 2024, offrant aux artistes une plateforme pour présenter leur travail à un public intéressé. Que vous soyez un artiste chevronné ou un curieux, cet appel est une opportunité de défier votre créativité et d&apos;inspirer la prochaine génération de scientifiques. Votre soumission doit refléter votre originalité et votre interprétation du large éventail de possibilités avec la biologie synthétique – en allant des systèmes bioingénierés complexes aux structures moléculaires inédites. Les œuvres sélectionnées seront présentées à l&apos;exposition et les artistes recevront 50 % des revenus des ventes de leurs œuvres. Plongez dans l&apos;intersection de la vie et de l&apos;art, et laissez votre vision prendre vie lors d&apos;une exposition inspirante!
             </div>
             
 
         <div className="w-1/2 mt-14 font-mono font-regular text-l">
             {/* WHO IS THIS COMPETITION FOR */}
             <div>
-              <b className="w-1/2 mt-14 font-mono font-regular text-xl">À qui s&apos;adresse ce concours?</b>
+              <b className="w-1/2 mt-14 font-mono font-regular text-xl">À qui s&apos;adresse cet appel?</b>
               <br/>
               À tous les esprits créatifs.
             </div>
@@ -127,7 +127,7 @@ const artcontest_fr: NextPage = () => {
             <div>
               <b className="w-1/2 mt-14 font-mono font-regular text-xl">Vous voulez en savoir plus sur la biologie synthétique?</b>
               <br/>
-              Commencez par consulter <a href="files/IGEM McGill Art Contest - Inspiration Material (FR).pdf" className="text-blue-500 hover:underline"> ce PDF</a> que nous avons préparé pour vous servir de guide dans votre exploration de sujets en biologie synthétique. Ensuite, explorez <a href="https://in-vitro-conference.webflow.io/" className="text-blue-500 hover:underline">nos autres initiatives éducatives</a>.
+              Commencez par consulter <a href="files/IGEM McGill Call To Artists - Inspiration Material (FR).pdf" className="text-blue-500 hover:underline"> ce PDF</a> que nous avons préparé pour vous servir de guide dans votre exploration de sujets en biologie synthétique. Ensuite, explorez <a href="https://igemontheverge.wixsite.com/home" className="text-blue-500 hover:underline">nos autres initiatives éducatives</a>.
             </div>
 
 
