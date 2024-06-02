@@ -9,7 +9,7 @@ const Join: NextPage = () => {
   return (
     <>
 
-      <div className="bg-black text-white pt-20 pl-20">
+      <div className="bg-black text-white pt-20 lg:pl-20">
         <div className="">
           <div className="py-10 capitalize font-signika font-light tracking-tight text-3xl">
             ABOUT US

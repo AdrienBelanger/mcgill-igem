@@ -25,7 +25,8 @@ const Footer = () => {
             <li className="hover:underline hover:cursor-pointer"><a href="https://open.spotify.com/show/566xfBOfyIhNnNVNsjVHjz?si=8c4f83dca49343cb&nd=1">STEMcast</a></li>
             <li className="hover:underline hover:cursor-pointer"><Link href="https://igemontheverge.wixsite.com/home">Conference: OnTheVerge 2024</Link></li>
             <li className="hover:underline hover:cursor-pointer"><Link href="https://www.youtube.com/channel/UCwqaOp6Mkj4Ekhd9QRchd6w">Synbio Collective</Link></li>
-            <li className="hover:underline hover:cursor-pointer"><Link href="/synbiosis_call_for_artists">Synbiosis Call For Artists</Link></li>
+            <li className="hover:underline hover:cursor-pointer"><Link href="/synbiosis_call_for_artists">Synbiosis: Call For Artists</Link></li>
+            <li className="hover:underline hover:cursor-pointer"><Link href="https://igemsynbiosis.wixsite.com/home">Synbiosis: The Exhibition</Link></li>
             <li className="hover:underline hover:cursor-pointer"><Link href="https://mcgilligem.substack.com/">Blog</Link></li>
           </ul>
         </div>
