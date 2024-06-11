@@ -76,7 +76,7 @@ const synbiosis_call_for_artists: NextPage = () => {
               <br /><br />
               <em><b className="text-l">Synbiosis: Interwoven Inspiration</b></ em>
               <br /><br />
-              Just as science and art are both powered by creativity and curiosity, we hope that your art will be inspired by science, and in turn, inspire future scientists.
+              Just as synbio and art are both powered by creativity and curiosity, we hope that your art will be inspired by synbio , and in turn, inspire future scientists.
             </div>
             
             
