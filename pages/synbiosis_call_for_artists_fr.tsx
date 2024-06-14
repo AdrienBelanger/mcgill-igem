@@ -64,7 +64,7 @@ const synbiosis_call_for_artists_fr: NextPage = () => {
 
             {/* WHAT IS SYNTHETIC BIO */}
             <div>
-            <b className="w-1/2 mt-14 font-mono font-regular text-xl">Qu&apos;est-ce que la biologie synthétique?</b>
+            <b className="w-1/2 mt-14 font-mono font-regular text-xl">Qu&apos;est-ce que la biologie synthétique (ou la &quot;synbio&quot;)?</b>
             <br />
             La biologie synthétique est un domaine de recherche qui se concentre sur la façon dont les systèmes biologiques peuvent être conçus pour des usages inédits, allant des biosenseurs construit avec des structures origamis en ADN aux bactéries &quot;intelligentes&quot; capables de détecter et d’éliminer les tumeurs. Votre imagination est la seule limite!
             </div>
@@ -76,7 +76,7 @@ const synbiosis_call_for_artists_fr: NextPage = () => {
               <br /><br />
               <em><b className="text-l">Synbiosis: Inspirations Entrelacées</b></ em>
               <br /><br />
-              Tout comme la science et l&apos;art sont tous deux alimentés par la créativité et la curiosité, nous espérons que votre art sera inspiré par la science et qu&apos;en retour, il inspirera les futurs scientifiques.
+              Tout comme la synbio et l&apos;art sont tous deux alimentés par la créativité et la curiosité, nous espérons que votre art sera inspiré par la synbio et qu&apos;en retour, il inspirera les futurs scientifiques.
             </div>
             
             
